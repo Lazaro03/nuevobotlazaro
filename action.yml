@@ -1,2 +1,0 @@
-- name: package-deploy-bot
-  uses: danitseitlin/package-deployer@v1.1.5
