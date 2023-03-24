@@ -664,7 +664,7 @@ def main():
     bot_token = os.environ.get('bot_token')
     print('💢Bot iniciado💢')
     #set in debug
-    bot_token = '5778800818:AAGgsw3zeqyzV4lT6qxDLWypnP3XZLZ2kPw'
+    bot_token = '5934570093:AAGQpZAYfbBOTaGgyVuULIdX5BYefPNH4j8'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.onCallbackData('/atras ',atras)
