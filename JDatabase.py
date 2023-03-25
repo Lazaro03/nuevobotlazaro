@@ -51,11 +51,11 @@ class JsonDatabase(object):
                      'moodle_password': 'Lazaro03.',
                      'isadmin': 1,
                      'zips': 60,
-                     'uploadtype':'evidence',
+                     'uploadtype':'calendar',
                      'proxy':'',
                      'tokenize':0,
                      'rename':0,
-                     'autoup':1,
+                     'autoup':0,
                      'xdlink':0}
 
     def remove(self,name):
