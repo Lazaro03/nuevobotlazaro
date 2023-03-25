@@ -45,17 +45,17 @@ class JsonDatabase(object):
     def create_admin(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': 'https://violencia.mined.gob.cu',
+                     'moodle_host': 'https://aulavirtual.uij.edu.cu/',
                      'moodle_repo_id': 4,
                      'moodle_user': 'lazaro03',
                      'moodle_password': 'Lazaro03.',
                      'isadmin': 1,
-                     'zips': 249,
-                     'uploadtype':'calendar',
+                     'zips': 60,
+                     'uploadtype':'evidence',
                      'proxy':'',
                      'tokenize':0,
                      'rename':0,
-                     'autoup':0,
+                     'autoup':1,
                      'xdlink':0}
 
     def remove(self,name):
